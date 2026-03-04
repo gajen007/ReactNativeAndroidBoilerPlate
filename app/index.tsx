@@ -20,7 +20,7 @@ export default function Index() {
     <View style={styles.container}>
         <Pressable style={styles.linkButton}onPress={()=>{router.push("/pages/LoginScreen")}}><Text>Login Screen</Text></Pressable>
         <Pressable style={styles.linkButton}onPress={()=>{router.push("/pages/Buttons")}}><Text>Buttons Page</Text></Pressable>
-        <Pressable style={styles.linkButton}onPress={()=>{router.push("/pages/Timeline/Timeline")}}><Text>Timeline Example</Text></Pressable>
+        <Pressable style={styles.linkButton}onPress={()=>{router.push("/pages/Timeline")}}><Text>Timeline Example</Text></Pressable>
     </View>
   );
 }
