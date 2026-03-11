@@ -8,7 +8,7 @@ import {
   View,
 } from 'react-native';
 
-const API_BASE = 'http://localhost:3000';
+import { API_BASE } from '@/app/API_BASE';
 
 export default function Index() {
   const [userName, setUserName] = useState('');
